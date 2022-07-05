@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42A2D6E6286DF52000FD6BD0 /* War__ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A2D6E5286DF52000FD6BD0 /* War__ChallengeApp.swift */; };
+		42A2D6E6286DF52000FD6BD0 /* War.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A2D6E5286DF52000FD6BD0 /* War.swift */; };
 		42A2D6E8286DF52000FD6BD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A2D6E7286DF52000FD6BD0 /* ContentView.swift */; };
 		42A2D6EA286DF52500FD6BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A2D6E9286DF52500FD6BD0 /* Assets.xcassets */; };
 		42A2D6ED286DF52500FD6BD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A2D6EC286DF52500FD6BD0 /* Preview Assets.xcassets */; };
+		42DFFBE22874DAF100B85441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42DFFBE12874DAF100B85441 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		42A2D6E2286DF52000FD6BD0 /* War- Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "War- Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		42A2D6E5286DF52000FD6BD0 /* War__ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = War__ChallengeApp.swift; sourceTree = "<group>"; };
+		42A2D6E2286DF52000FD6BD0 /* War.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = War.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A2D6E5286DF52000FD6BD0 /* War.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = War.swift; sourceTree = "<group>"; };
 		42A2D6E7286DF52000FD6BD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		42A2D6E9286DF52500FD6BD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42A2D6EC286DF52500FD6BD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42DFFBE12874DAF100B85441 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +45,7 @@
 		42A2D6E3286DF52000FD6BD0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				42A2D6E2286DF52000FD6BD0 /* War- Challenge.app */,
+				42A2D6E2286DF52000FD6BD0 /* War.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +53,9 @@
 		42A2D6E4286DF52000FD6BD0 /* War- Challenge */ = {
 			isa = PBXGroup;
 			children = (
-				42A2D6E5286DF52000FD6BD0 /* War__ChallengeApp.swift */,
+				42A2D6E5286DF52000FD6BD0 /* War.swift */,
 				42A2D6E7286DF52000FD6BD0 /* ContentView.swift */,
+				42DFFBE12874DAF100B85441 /* LaunchScreen.storyboard */,
 				42A2D6E9286DF52500FD6BD0 /* Assets.xcassets */,
 				42A2D6EB286DF52500FD6BD0 /* Preview Content */,
 			);
@@ -70,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		42A2D6E1286DF52000FD6BD0 /* War- Challenge */ = {
+		42A2D6E1286DF52000FD6BD0 /* War */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42A2D6F0286DF52500FD6BD0 /* Build configuration list for PBXNativeTarget "War- Challenge" */;
+			buildConfigurationList = 42A2D6F0286DF52500FD6BD0 /* Build configuration list for PBXNativeTarget "War" */;
 			buildPhases = (
 				42A2D6DE286DF52000FD6BD0 /* Sources */,
 				42A2D6DF286DF52000FD6BD0 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "War- Challenge";
+			name = War;
 			productName = "War- Challenge";
-			productReference = 42A2D6E2286DF52000FD6BD0 /* War- Challenge.app */;
+			productReference = 42A2D6E2286DF52000FD6BD0 /* War.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 42A2D6DD286DF52000FD6BD0 /* Build configuration list for PBXProject "War- Challenge" */;
+			buildConfigurationList = 42A2D6DD286DF52000FD6BD0 /* Build configuration list for PBXProject "War" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42A2D6E1286DF52000FD6BD0 /* War- Challenge */,
+				42A2D6E1286DF52000FD6BD0 /* War */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42DFFBE22874DAF100B85441 /* LaunchScreen.storyboard in Resources */,
 				42A2D6ED286DF52500FD6BD0 /* Preview Assets.xcassets in Resources */,
 				42A2D6EA286DF52500FD6BD0 /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42A2D6E8286DF52000FD6BD0 /* ContentView.swift in Sources */,
-				42A2D6E6286DF52000FD6BD0 /* War__ChallengeApp.swift in Sources */,
+				42A2D6E6286DF52000FD6BD0 /* War.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,11 +271,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"War- Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = KK2FYJNTQ6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -283,7 +288,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -295,11 +300,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"War- Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = KK2FYJNTQ6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,14 +317,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		42A2D6DD286DF52000FD6BD0 /* Build configuration list for PBXProject "War- Challenge" */ = {
+		42A2D6DD286DF52000FD6BD0 /* Build configuration list for PBXProject "War" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42A2D6EE286DF52500FD6BD0 /* Debug */,
@@ -327,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42A2D6F0286DF52500FD6BD0 /* Build configuration list for PBXNativeTarget "War- Challenge" */ = {
+		42A2D6F0286DF52500FD6BD0 /* Build configuration list for PBXNativeTarget "War" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				42A2D6F1286DF52500FD6BD0 /* Debug */,
